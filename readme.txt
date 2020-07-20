@@ -267,6 +267,8 @@ In the subdirectory SOURCE
   ECN4.CPP     - Elliptic curves over Fp4 - Implementation file
   ECN6.H       - Elliptic curves over Fp6 - Header file
   ECN6.CPP     - Elliptic curves over Fp6 - Implementation file
+  ECN8.H       - Elliptic curves over Fp8 - Header file
+  ECN8.CPP     - Elliptic curves over Fp8 - Implementation file
   ZZN2.H       - Fp2 arithmetic - Header file
   ZZN2.CPP     - Fp2 arithmetic - Implementation file
   ZZN3.H       - Fp3 arithmetic - Header file
@@ -304,6 +306,7 @@ In the subdirectory SOURCE
   KSS18.CPP    - Program to generate KSS k=18 curves
   BLS12.CPP    - Program to generate BLS k=12 curves
   BLS24.CPP    - Program to generate BLS k=24 curves
+  BESTPAIR.CPP - Program to generate nice pairing-friendly curves
   AKE12BNE.CPP - Authenticated Key Exchange, k=12, BN curve  - Experimental!
   AKE12BNA.CPP - Authenticated Key Exchange, k=12, BN curve, Ate pairing, sextic twist!
   AKE12BNR.CPP - Authenticated Key Exchange, k=12, BN curve, R-ate pairing, sextic twist! 1-2-6-12 tower
@@ -370,6 +373,7 @@ In the subdirectory SOURCE
   MIRDEF.HAF   -    Header file for 16 bit use of 32 bit computer
   MIRDEF.HIO   -    Integer-Only 32-bit header file
   MIRDEF.HPP   -    Header file for full 64-bit Computer - C++ Library Build - see linux64_cpp
+  MIRDEF.MGW   -    Header file for 64-bit mingw build
   MIRACL.H     -    Main MIRACL header
   BIG.H        -    C++ header for 'big' numbers
   FLASH.H      -    C++ header for 'flash' numbers
@@ -387,6 +391,7 @@ In the subdirectory SOURCE
   In the subdirectory LIB
 
   *DOIT.BAT    -    Batch files for constructing libraries and sample progs.
+  MINGW.BAT    -    Batch file to build library for 64-bit MINGW
   MIRACL.MAK   -    John Kennedy's UNIX make file
   LINUX        -    Linux bash script to build library - 32-bit
   LINUX64      -    Linux bash script to build library - 64-bit - C Library Build
